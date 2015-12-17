@@ -1,3 +1,7 @@
+%% save_traces.m
+% saves the ROI's original raw trace, flattened trace, and the detected
+% spike times
+
 function save_traces(FileName , meanTrace , flatTrace , spikeTimes)
     wh = waitbar(0 , 'Saving files...');
     

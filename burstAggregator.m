@@ -1,3 +1,5 @@
+%% burstAggregator.m
+% re-arming and returned the re-armed spike times
 function fireTimes = burstAggregator(spike_times , fireGap)
     
     spikesDiff = diff([0 , spike_times]);

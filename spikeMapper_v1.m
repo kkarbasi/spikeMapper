@@ -32,6 +32,7 @@ tiffStack  = tiffStackReaderFast([PathName,FileName]);
 tiffStackOriginal = tiffStack;
 toc
 
+% Read frame size
 frameX = size(tiffStack , 1);
 frameY = size(tiffStack , 2);
 

@@ -1,3 +1,7 @@
+%% tiffStackReaderFast.m
+% Reads an input tiff stack and returns it as a matrix
+% It shows a progress bar while reading
+
 function tiffStack = tiffStackReaderFast(filename)
 
     fileInfo=imfinfo(filename);
